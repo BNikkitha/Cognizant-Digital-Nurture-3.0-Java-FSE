@@ -13,6 +13,6 @@ public class LoggerTest {
 
         // Log a message to verify functionality
         logger1.log("This is a test log message.");
-        logger2.log("This message should be logged by the same instance.");
+        logger2.log("This message will be logged to the same instance");
     }
 }
